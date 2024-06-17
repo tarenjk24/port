@@ -6,7 +6,12 @@
 
 ## Description 
 My portfolio, cotains personal information linked to my history in web development.
-
+### Content:
+- Index
+* Gigi
++ Start up
++ e-commerce library
+  
 ---
 ## Links 🔗
 [![portfolio](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=google&logoColor=white)](https://tarenjk24.github.io/port/index.html)

@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio ✨
 ---
 <p align="center">
   <img src="logo2.png" alt="alt text">

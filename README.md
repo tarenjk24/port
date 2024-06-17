@@ -1,10 +1,10 @@
-# portfolio
+# Portfolio
 ---
 <p align="center">
   <img src="logo2.png" alt="alt text">
 </p>
 
-## description 
+## Description 
 My portfolio, cotains personal information linked to my history in web development.
 
 ---

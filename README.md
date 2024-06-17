@@ -32,6 +32,7 @@ My portfolio, cotains personal information linked to my history in web developme
            to enhance the shopping experience.
 ---
 ## Links 🔗
+[![Certificate](https://img.shields.io/badge/certificate-000000?style=for-the-badge&logo=pdf&logoColor=white)](CS50x.pdf)
 [![portfolio](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=google&logoColor=white)](https://tarenjk24.github.io/port/index.html)
 [![resume](https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=google&logoColor=white)](https://github.com/tarenjk24/port/blob/main/resume.pdf)
 [![linked in](https://img.shields.io/badge/Linkedin-000000?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/eter-nada-9a457a2bb/)

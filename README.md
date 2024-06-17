@@ -13,6 +13,10 @@ My portfolio, cotains personal information linked to my history in web developme
 + E-commerce library
 + Final
   ## Projects
+
+  1. First list item
+   - First nested list item
+     - Second nested list item
   1. Gigi'blog
      -This is a comprehensive blog for an influencer, from publishing posts to podcasts.
   2. Chabab'in

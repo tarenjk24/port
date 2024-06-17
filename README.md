@@ -14,17 +14,19 @@ My portfolio, cotains personal information linked to my history in web developme
 + Final
   ## Projects
 
-  1. First list item
-   - First nested list item
-     - Second nested list item
   1. Gigi'blog
+     
      -This is a comprehensive blog for an influencer, from publishing posts to podcasts.
-  2. Chabab'in
+     
+  3. Chabab'in
+     
       -This is a comprehensive platform for national cultural and youngsters organizations. It is created in a smooth way so that the targated audience can easily access and discover available cultural activities for them around in their areas.
-  3. Ecommerce
+     
+  4. Ecommerce
+   
       -This is a frontend e-commerce platform for a library for school supplies, and books
            enhancing the shopping experience with a seamless blend of literary and educational resources.
-  4. Final
+  6. Final
       -This is my final project in cs50x, a fullstack e-commerce platform for school supplies,
            to enhance the shopping experience.
 ---

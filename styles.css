@@ -18,7 +18,7 @@ body {
  line-height: 1.6;
 
  margin: 0;
- background: linear-gradient(135deg, #fff0f5 0%, #ebc6cb 100%);
+ background: linear-gradient(135deg, #861e1e 0%, #ce2929 100%);
 
  animation: gradient 10s 1 linear;
  background-size: 200% 300%;
@@ -338,7 +338,7 @@ a:hover {
 
   /* Aesthetics */
   .top-section {
-    background: linear-gradient(135deg, #fff0f5 0%, #ebc6cb 100%);
+    background: #fff0f5;
   }
   .bottom-section {
     background: #fff0f5;

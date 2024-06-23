@@ -18,21 +18,12 @@ body {
  line-height: 1.6;
 
  margin: 0;
- background: linear-gradient(135deg, #ecd3d3 0%, #c7a8a8 100%);
+ background-image: #d8d6d6;
 
  animation: gradient 10s 1 linear;
  background-size: 200% 300%;
  scroll-behavior: smooth;
  overflow-y: auto;
-}
-/* background */
-@keyframes gradient {
- 0% {
-  background-position: 100% 0%;
- }
- 50% {
-  background-position: 50% 100%;
- }
 }
 
 a {
@@ -155,52 +146,7 @@ a:hover {
 	list-style-type: none;
   }
 
-/**/
-#product2 .part {
-	width: 100%;
-	min-width: 250px;
-	padding: 10px 12px;
-	margin: 15px 0;
-	height: fit-content;
-	box-sizing: border-box;
-  }
-  #product2 .pro {
-	width: 100%;
-	min-width: 250px;
-	padding: 10px 12px;
-	border: 0.5px solid rgb(187, 183, 183);
-	border-radius: 3px;
-	box-shadow: rgba(0, 0, 5, 0.1) 80px 50px 40px 1px;
-	margin: 15px 0;
-	transition: 0.2s ease;
-  }
-  #product2 .pro:hover {
-	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
-  }
-  #product2 .pro img {
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	border-radius: 20px;
-  }
-  #product2 .part .col-xs-6 {
-	padding: 20px;
-  }
-#product2 .pro .des {
-	text-align: start;
-	padding: 10px 0;
-  }
-  #product2 .pro .des span {
-	color: black;
-	font-size: 12px;
-  }
-  #product2 .pro .des h5 {
-	padding-top: 7px;
-	color: black;
-	font-size: 14px;
-  }
 
-/**/
 
   /* hero section */
   .text-word {
@@ -218,7 +164,7 @@ a:hover {
     line-height: 1;
     font-weight: 700;
     text-align: center;
-    color: #f0e68c;
+    color: #383837;
   }
 
   /* text animation start */
@@ -292,7 +238,7 @@ a:hover {
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
-    color: #fff;
+    color: #383837;
     letter-spacing: 1px;
   }
   .top-section p span {
@@ -393,6 +339,7 @@ a:hover {
   /* main section */
 
   .content-theme-dark h1 {
+    color: #383837
     padding: 10px;
     font-size: 50px;
     font-weight: 900;
@@ -401,24 +348,7 @@ a:hover {
     animation: moving-border 5s infinite;
     
   }
-  /* name animation start */
-  @keyframes moving-border {
-    0% {
-      color: #fdfd96;
-    }
-    25% {
-      color: #fdfd96;
-    }
-    50% {
-      color: #d4af37;
-    }
-    75% {
-      color: #c5b358;
-    }
-    100% {
-      color: #d4af37;
-    }
-  }
+
   .content-theme-dark p {
     color: #fea98d;
   }

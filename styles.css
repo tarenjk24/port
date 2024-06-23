@@ -266,7 +266,7 @@ a:hover {
   }
 
 /* light themed */
-
+/* title */
   .content-theme-light h1 {
     padding: 20px;
     font-size: 100px;
@@ -274,12 +274,13 @@ a:hover {
     color: #d4af37;
     
   }
+  /* paragraph*/
   .content-theme-light p {
     text-align: justify;
     padding: 10px;
     color: #1b1b1b;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    
+    word-spacing: 1px;
     font-weight: 300;
     line-height: 23px;
   }
@@ -290,15 +291,12 @@ a:hover {
     color: #f4583a;
     font-size: 55px;
     font-weight: 200;
-    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   }
 
   .content-theme-neutral p {
-    text-align: justify;
     padding: 10px;
     color: #1b1b1b;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    word-spacing: 1px;
     font-weight: 300;
     line-height: 23px;
   }

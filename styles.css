@@ -43,6 +43,120 @@ a:hover {
  text-decoration: none;
 }
 
+/* projects*/
+.area {
+	width: 100%;
+	height: 199vh;
+	position: relative;
+	justify-content: center;
+	margin-top: 1em;
+	text-align: center;
+  }
+  .des a {
+	padding: 5px;
+	font-size: 20px;
+	font-weight: 400;
+	color: gold;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, and color */
+	text-decoration: none; /* Removes the underline */
+  }
+  .des a:hover {
+	color: darkgoldenrod; /* Darker shade of gold for hover effect */
+	transform: scale(1.05); /* Slightly increases the size */
+  }
+  /* Styling for title-1 */
+  .title-1 {
+	padding: 5px;
+	font-size: 80px;
+	font-weight: 400;
+	color: #d4af37;
+	text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+	position: relative;
+	justify-content: center;
+	margin-top: 2em;
+	text-align: center;
+  }
+  /* Styling for pro-container  and its parts*/
+  .pro-container {
+	padding-top: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	padding: 0 5px 20px 5px;
+  }
+  #product1 .part {
+	width: 100%;
+	min-width: 250px;
+	padding: 10px 12px;
+	margin: 15px 0;
+	height: fit-content;
+	box-sizing: border-box;
+  }
+  #product1 .pro {
+	width: 100%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 0.5px solid white;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 5, 0.1) 80px 50px 40px 1px;
+	margin: 15px 0;
+	transition: 0.2s ease;
+  }
+  #product1 .pro:hover {
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
+  }
+  #product1 .pro img {
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	border-radius: 20px;
+  }
+  #product1 .part .col-xs-6 {
+	padding: 20px;
+  }
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+	justify-content: center;
+  }
+
+  /* Styles image size */
+  .row img {
+	width: 50px;
+	height: 60vh;
+	padding-top: 20px;
+	padding-bottom: 30px;
+  }
+  span {
+	padding-top: 30px;
+	margin-bottom: 20px;
+  }
+  #product1 .pro .des {
+	text-align: start;
+	padding: 10px 0;
+  }
+  #product1 .pro .des span {
+	color: black;
+	font-size: 12px;
+  }
+  #product1 .pro .des h5 {
+	padding-top: 7px;
+	color: black;
+	font-size: 14px;
+  }
+  #product1 .pro .des h4 {
+	padding-top: 7px;
+	color: gold;
+	font-size: 15px;
+	font-weight: 700;
+  }
+  .col-xs-6 {
+	list-style-type: none;
+  }
+
+
 
   /* hero section */
   .text-word {

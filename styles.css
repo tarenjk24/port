@@ -340,41 +340,6 @@ a:hover {
     height: 100%;
   }
 
-  /* Overlay effect */
-  .overlay {
-    background-color: #4ba2ea;
-    opacity: 0;
-
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
-    position: absolute;
-    top: 0;
-    bottom: 5px;
-    left: 0;
-    right: 0;
-  }
-
-  .overlay h3 {
-    margin-top: 0;
-  }
-
-  .overlay .description {
-    padding: 2rem;
-  }
-
-  .overlay .description,
-  .overlay a {
-    color: #fff;
-
-    text-align: left;
-  }
-
-  .overlay:hover {
-    opacity: 0.9;
-  }
-
   /* footer */
 
   .footer {

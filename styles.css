@@ -24,7 +24,7 @@ body {
  scroll-behavior: smooth;
  overflow-y: auto;
 }
-
+/* background */
 @keyframes gradient {
  0% {
   background-position: 100% 0%;
@@ -128,6 +128,7 @@ a:hover {
   }
   /*end animation*/
 
+  /* paragraph design*/
   .top-section p {
     text-align: center;
     font-size: 15px;
@@ -167,7 +168,7 @@ a:hover {
     bottom: 5px;
   }
 
-
+/* position */
   .top-section {
     position: absolute;
     width: 100%;
@@ -176,7 +177,7 @@ a:hover {
   }
 
 
-  /* Sections */
+  /* main Section */
   .section {
     height: 100vh;
     min-height: 500px;
@@ -240,9 +241,9 @@ a:hover {
     text-transform: uppercase;
     text-align: center;
     animation: moving-border 5s infinite;
-    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    
   }
-  /* text animation start */
+  /* name animation start */
   @keyframes moving-border {
     0% {
       color: #fdfd96;
@@ -271,7 +272,7 @@ a:hover {
     font-size: 100px;
     font-weight: 200;
     color: #d4af37;
-    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    
   }
   .content-theme-light p {
     text-align: justify;

@@ -5,27 +5,28 @@
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/livecanvas-team/ninjabootstrap/dist/css/bootstrap.min.css" media="all">
     <script src="https://kit.fontawesome.com/528f354b3f.js" crossorigin="anonymous"></script>
+    <!-- http://getbootstrap.com/docs/5.1/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link rel="icon" href="logo2.png" type="image/x-icon">
+    <!-- Other meta tags and links... -->
+    <link href="/static/styles.css" rel="stylesheet">
+    <link rel="icon" href="/static/logo2.png" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
     <!-- Main section -->
-    <!-- Main section -->
-    <div class="section top-section  " id="hero">
+    <div class="section top-section">
       <div class="content-container content-theme-dark">
         <div class="content-inner">
           <div class="content-center">
             <div class="row justify-content-center">
               <div class="loading">
                 <div class="col-12 text-center mb-2">
-                  <div class="intro">Hello <span>I am</span>
+                  <div class="intro">Hello <span>I am,</span>
                   </div>
                 </div>
                 <h1 class="col-12 text-center text-word">
@@ -45,9 +46,8 @@
                     <a href="#section1">
                       <span class="about hover-target">About Me</span>
                     </a>
-                    
                     <span class="resume hover-target">
-                      <a href="#product2">Projects</a>
+                      <a href="#section2">Projects</a>
                     </span>
                   </p>
                 </div>
@@ -57,111 +57,140 @@
         </div>
       </div>
     </div>
-    <!-- Main section -->
-    <div class="section bottom-section  js-scroll fade-in">
-      <div class="content-container content-theme-light">
-        <div class="content-inner">
-          <div class="content-center">
-            <!-- footer and social media section -->
-            <div class="footer">
-              <h5> About me</h5>
-             <p>
-              I’m a full-stack developer. I learned to code during my high school computer science major. Now, I find joy in transforming ideas into functional, beautiful websites and software.
-             </p>
+    <!-- me  section -->
+    <section class="py-3 py-md-5" id="section1">
+      <div class="container">
+        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+          <div class="col-12 col-lg-6 col-xl-5">
+            <img class="img-fluid rounded" loading="lazy" src="/static/logo2.png" alt="Hejer's portrait" style="margin: 20px;">
+          </div>
+          <div class="col-12 col-lg-6 col-xl-7">
+            <div class="row justify-content-xl-center">
+              <div class="col-12 col-xl-11">
+                <h2 class="mb-3">Who Am I?</h2>
+                <p class="mb-5 fst-normal"> I’m a full-stack developer. I learned to code during my high school computer science major. Now, I find joy in transforming ideas into functional, beautiful websites and software. </p>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" disabled> Skills </button>
+                    </h2>
+                    <div id="skills" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                        <section class="mb-4">
+                          <ul style="list-style-type: none; display: flex;   gap: 30px;  ">
+                            <li>
+                              <img src="/static/icon/html.png" alt="html" style="max-width:100%;height:auto;">
+                            </li>
+                            <li>
+                              <img src="/static/icon/css.png" alt="css" style="max-width:100%;height:auto;">
+                            </li>
+                            <li>
+                              <img src="/static/icon/js.png" alt="javascript" style="max-width:100%;height:auto;">
+                            </li>
+                            <li>
+                              <img src="/static/icon/python.png" alt="python" style="max-width:100%;height:auto;">
+                            </li>
+                            <li>
+                              <img src="/static/icon/sql.png" alt="Dsql" style="max-width:100%;height:auto;">
+                            </li>
+                            <li>
+                              <img src="/static/icon/jinja.png" alt="jinja" style="max-width:100%;height:auto;">
+                            </li>
+                          </ul>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- skill section -->
-    <div class="section bottom-section  js-scroll fade-in">
-      <div class="content-container content-theme-light">
-        <div class="content-inner">
-          <div class="content-center">
-            <!-- footer and social media section -->
-            <div class="footer">
-              <div class="contact">
-                <p>Contact me</p>
-                <p>
-          
-                  <ul class="icon-list">
-                    <li><i class="devicon-database-plain"></i> </li>
-                    <li><i class="devicon-python-plain"></i> </li>
-                    <li><i class="devicon-html5-plain"></i> </li>
-                    <li><i class="devicon-javascript-plain"></i> </li>
-                    <li><i class="devicon-css3-plain"></i> </li>
-                    <li><i class="devicon-bootstrap-plain"></i> </li>
-                    <!-- For Figma, consider using a generic design icon -->
-                    <li><i class="devicon-github-plain"></i> </li>
-                </ul>
-               
-                </p>
+    </section>
+    <!-- projects section -->
+    <section class="py-3 py-md-5" id="section2">
+      <div class="container">
+        <div class="col-12 col-xl-11">
+          <h2 class="mb-3 text-center">Projects</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="booksbrightness/duck.webp" class="card-img-top" alt="final">
+              <div class="card-body">
+                <h5 class="card-title">First project</h5>
+                <p class="card-text"> The final project of CS50x. </p>
+                <a href="final.html" class="btn btn-dark">See more</a>
               </div>
-              
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <span class="badge rounded-pill text-bg-primary">Python</span>
+                  <span class="badge rounded-pill text-bg-secondary">SQL</span>
+                  <span class="badge rounded-pill text-bg-success">Fullstack</span>
+                  <span class="badge rounded-pill text-bg-danger">HTML</span>
+                  <span class="badge rounded-pill text-bg-warning">CSS</span>
+                </small>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- project section -->
-    <section id="product1" class="section-p1">
-      <!-- Heading for the project section -->
-      <div class="title-1">Projects</div>
-      <!-- Container for the  items -->
-      <div class="pro-container">
-        <div class="part">
-          <ul class="row">
-            <!-- Individual product item -->
-            <li class="col-xs-6 col-md-3">
-              <div class="pro">
-                <!-- Displaying the product cover image -->
-                <img src="booksbrightness/duck.webp" alt="final">
-                <!-- Details of the product -->
-                <div class="des">
-                  <span> Python Djanjo HTLM SQL CSS Bootstrap </span>
-                  <h5>The final project of CS50x.</h5>
-                  <a href="final.html" target="_blank">View Details </a>
-                </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="booksbrightness/gigilogo.png" class="card-img-top" alt="gigi">
+              <div class="card-body">
+                <h5 class="card-title">Gigi's blog</h5>
+                <p class="card-text"> A personalized blog. </p>
+                <a href="gigi.html" class="btn btn-dark">See more</a>
               </div>
-            </li>
-            <li class="col-xs-6 col-md-3">
-              <div class="pro">
-                <!-- Displaying the product cover image -->
-                <img src="booksbrightness/gigilogo.png" alt="gigi">
-                <!-- Details of the product -->
-                <div class="des">
-                  <span> HTLM javascript CSS Bootstrap </span>
-                  <h5>A personalized blog.</h5>
-                  <a href="gigi.html" target="_blank">View Details </a>
-                </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <span class="badge rounded-pill text-bg-danger">HTML</span>
+                  <span class="badge rounded-pill text-bg-warning">CSS</span>
+                  <span class="badge rounded-pill text-bg-info">Javascript</span>
+                  <span class="badge rounded-pill text-bg-light">Frontend</span>
+                  <span class="badge rounded-pill text-bg-dark">bootstrap</span>
+                </small>
               </div>
-            </li>
-            <li class="col-xs-6 col-md-3">
-              <div class="pro">
-                <!-- Displaying the product cover image -->
-                <img src="booksbrightness/b.png" alt="books">
-                <!-- Details of the product -->
-                <div class="des">
-                  <span> HTLM javascript CSS Bootstrap </span>
-                  <h5>Frontend online shop.</h5>
-                  <a href="booksbrightness.html" target="_blank">View Details </a>
-                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="booksbrightness/b.png" class="card-img-top" alt="books">
+              <div class="card-body">
+                <h5 class="card-title">Books brightness</h5>
+                <p class="card-text"> Frontend online shop. </p>
+                <a href="booksbrightness.html" class="btn btn-dark">See more</a>
               </div>
-            </li>
-            <li class="col-xs-6 col-md-3">
-              <div class="pro">
-                <!-- Displaying the product cover image -->
-                <img src="booksbrightness/chababin.jpeg" alt="startup">
-                <!-- Details of the product -->
-                <div class="des">
-                  <span> HTLM javascript CSS Bootstrap </span>
-                  <h5>A local start-up.</h5>
-                  <a href="chababin.html" target="_blank">View Details </a>
-                </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <span class="badge rounded-pill text-bg-danger">HTML</span>
+                  <span class="badge rounded-pill text-bg-warning">CSS</span>
+                  <span class="badge rounded-pill text-bg-info">Javascript</span>
+                  <span class="badge rounded-pill text-bg-light">Frontend</span>
+                  <span class="badge rounded-pill text-bg-dark">bootstrap</span>
+                </small>
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="booksbrightness/chababin.jpeg" class="card-img-top" alt="chababin">
+              <div class="card-body">
+                <h5 class="card-title">Chabab'in</h5>
+                <p class="card-text"> A local start-up. </p>
+                <a href="chababin.html" class="btn btn-dark">See more</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <span class="badge rounded-pill text-bg-danger">HTML</span>
+                  <span class="badge rounded-pill text-bg-warning">CSS</span>
+                  <span class="badge rounded-pill text-bg-info">Javascript</span>
+                  <span class="badge rounded-pill text-bg-light">Frontend</span>
+                  <span class="badge rounded-pill text-bg-dark">bootstrap</span>
+                </small>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
